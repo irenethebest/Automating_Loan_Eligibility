@@ -3,25 +3,47 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+Automating the loan eligibility based on customer details
 
 ## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+1. Applicants having a credit history 
+2. Applicants with higher applicant and co-applicant incomes
+3. Applicants with higher education level
+4. Properties in urban areas with high growth perspectives
++5. Applicants with higher income per person in the family (considering #of dependents)
++6. Applicants with lower loan amount in application
++7. Applicants with high savings (data not provided here)
 
 ## EDA 
-(fill in what you discovered in your exploration of the dataset)
+For loan approval, credit_history is required. (no matter it is good or not - there is no credit score in the dataset. What's given in the data is whether credit history exists or not)
+
+median total income is higher for the one who got the loan approved than who did not.
+
+Loan approval rate for 'Semiurban area' was higher than 'Rural area' or 'Urban'. (possibly due to high growth potential in value)
+
 
 
 ## Process
-(fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
-### (your step 1)
-### (your step 2)
+Data cleansing: 
+numerical values – mean()
+Categorical values – mode()
+
+Feature engineering: 
+Total income = applicant income + co-applicant income
+
+Modeling: 
+LogisticRegression(), KNeighborsClassifier(), GaussianNB(), DecisionTreeClassifier(), SVC()
+
 
 ## Results/Demo
 (fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
+attached in powerpoint file.
 
 ## Challanges 
-(discuss challenges you faced in the project)
+Pipeline error
+  Easy to follow the steps, however once I get an error, it is hard to find where to fix it 
+  Even though I set a simpleimputer to replace null values, it didn’t work(!)
+
 
 ## Future Goals
 (what would you do if you had more time? are there any potential issues/biases with your model/use case?)
