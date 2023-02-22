@@ -1,4 +1,4 @@
-# Mini-project IV
+# Automating Loan Eligibility (Lighthouse Labs Mini-project IV)
 
 ### Table of contents
   - Project/Goal
