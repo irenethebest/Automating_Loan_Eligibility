@@ -1,6 +1,10 @@
 # Mini-project IV
 
-### [Assignment](assignment.md)
+### Table of contents
+  - Project/Goal
+  - Hypothesis
+  - Exploratory Data Analysis
+  
 
 ## Project/Goals
 Automating the loan eligibility based on customer details
@@ -36,14 +40,6 @@ LogisticRegression(), KNeighborsClassifier(), GaussianNB(), DecisionTreeClassifi
 
 
 ## Results/Demo
-(fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
-attached in powerpoint file.
 
 ## Challanges 
-Pipeline error
-  Easy to follow the steps, however once I get an error, it is hard to find where to fix it 
-  Even though I set a simpleimputer to replace null values, it didn’t work(!)
 
-
-## Future Goals
-(what would you do if you had more time? are there any potential issues/biases with your model/use case?)
